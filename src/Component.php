@@ -66,9 +66,7 @@ class Component extends BaseComponent
         $this->orderDirValues = $this->getOrderDirValues();
     }
 
-    protected function setup(): void
-    {
-    }
+    protected function setup(): void {}
 
     public function builder(): Builder
     {
